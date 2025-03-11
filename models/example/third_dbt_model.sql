@@ -1,4 +1,5 @@
-{{ config(materialized='table') }}
+{{ config(materialized='table'.
+,tags=['hourly']) }}
 
 with source_data as (
 

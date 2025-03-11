@@ -6,7 +6,7 @@ with source_data as (
     union all
     select 3 as id
     union all
-    select 13 as id
+    select 16 as id
 )
 select *
 from source_data

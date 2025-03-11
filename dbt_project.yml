@@ -40,10 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-      +tags:
-          - 'hourly'
-
+      +tags: ['hourly']
+     
     ex:
       +materialized: table
-      +tags:
-          - 'daily'
+      +tags: ['daily']

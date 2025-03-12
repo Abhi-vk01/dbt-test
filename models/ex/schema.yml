@@ -2,7 +2,7 @@
 version: 2
 
 models:
-    - name: test1
+    - name: test_new_1
       description: "A starter dbt model"
       columns:
           - name: id
